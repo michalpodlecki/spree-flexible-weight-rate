@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_flexible_weight_rate'
-  s.version     = '1.3.2'
+  s.version     = '2.0.0'
   s.summary     = 'A flexible weight rate calculator'
   s.description = 'This allows us to specify a base cost for an item, and an additional cost for weighing a certain amount'
   s.required_ruby_version = '>= 1.9.3'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.3.2'
+  s.add_dependency 'spree_core', '~> 3.0'
 
   s.add_development_dependency 'capybara', '~> 1.1.2'
   s.add_development_dependency 'coffee-rails'

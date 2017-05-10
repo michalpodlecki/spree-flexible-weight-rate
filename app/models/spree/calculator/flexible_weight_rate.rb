@@ -5,8 +5,6 @@ module Spree
     preference :weight, :decimal, :default => 0.0
     preference :currency, :string, :default => Spree::Config[:currency]
 
-    attr_accessible :preferred_initial, :preferred_cost_per_weight, :preferred_weight, :preferred_currency
-
     def self.description
       "Flexible Weight Rate"
     end
