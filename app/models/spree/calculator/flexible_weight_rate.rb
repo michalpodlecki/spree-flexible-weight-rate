@@ -19,9 +19,9 @@ module Spree
 
     private
     def additional_cost(package)
-      shipment_weight = package.total_weight || 1
-      additionals = (shipment_weight / preferred_weight).to_i
-      additionals -= 1 if (shipment_weight % preferred_weight == 0)
+      package_weight = package.total_weight || 1
+      additionals = (package_weight / preferred_weight).to_i
+      additionals -= 1 if (package_weight % preferred_weight == 0)
       preferred_cost_per_weight * additionals
     end
   end
