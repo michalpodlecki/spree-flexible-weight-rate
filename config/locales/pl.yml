@@ -1,0 +1,5 @@
+pl:
+  spree:
+    shipping_flexible_weight_rate: Elastyczna stawka za wagę paczki
+    first_package: Stawka za pierwszą paczkę
+    additional_package: Stawka za dodatkową paczkę
