@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_flexible_weight_rate'
-  s.version     = '2.1.0'
+  s.version     = '2.1.1'
   s.summary     = 'A flexible weight rate calculator'
   s.description = 'This allows us to specify a base cost for an item, and an additional cost for weighing a certain amount'
   s.required_ruby_version = '>= 1.9.3'

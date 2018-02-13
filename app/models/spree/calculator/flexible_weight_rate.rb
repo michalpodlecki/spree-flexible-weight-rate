@@ -5,6 +5,8 @@ module Spree
     preference :weight,             :decimal, default: 0.0
     preference :currency,           :string,  default: Spree::Config[:currency]
 
+    validates_numericality_of :preferred_weight, greater_than: 0
+
     def self.description
       Spree.t(:shipping_flexible_weight_rate)
     end

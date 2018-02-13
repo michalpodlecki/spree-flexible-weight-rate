@@ -1,4 +1,14 @@
 pl:
+  activerecord:
+    attributes:
+      calculator:
+        preferred_weight: Waga
+    errors:
+      models:
+        spree/calculator/flexible_weight_rate:
+          attributes:
+            preferred_weight:
+              greater_than: "musi być wyższa niż %{count}"
   spree:
     shipping_flexible_weight_rate: Elastyczna stawka za wagę paczki
     first_package: Stawka za pierwszą paczkę
